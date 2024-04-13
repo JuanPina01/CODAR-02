@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        let numeroLados = parseInt(prompt("Digite o número de lados do polígono regular (3, 4 ou 5):"));
+        let medidaLado = parseFloat(prompt("Digite a medida do lado do polígono (em cm):"));
+
+        if (numeroLados === 3) {
+            let perimetro = numeroLados * medidaLado;
+            document.write("TRIÂNGULO - Perímetro: " + perimetro + " cm");
+        } else if (numeroLados === 4) {
+            let area = medidaLado ** 2;
+            document.write("QUADRADO - Área: " + area + " cm²");
+        } else if (numeroLados === 5) {
+            let area = medidaLado ** 2;
+            document.write("PENTÁGONO - Área: " + area + " cm²");
+        } else if (numeroLados < 3) {
+            document.write("NÃO É UM POLÍGONO");
+        } else {
+            document.write("POLÍGONO NÃO IDENTIFICADO");
+        }
+
+
+    </script>
+</body>
+</html>

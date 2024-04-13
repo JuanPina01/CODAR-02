@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+            let TotalCompra;
+            let numeroMacas = parseInt(prompt("Quantas maçãs você vai querer?"));
+
+            const precoMenosDeUmaDuzia = 3.50;
+            const precoMaisDeUmaDuzia = 2.50;
+
+        if (numeroMacas > 0) {
+            if (numeroMacas < 12) {
+                TotalCompra = numeroMacas * precoMenosDeUmaDuzia;
+                document.write("Total da compra: R$ " + TotalCompra.toFixed(2));
+            } else {
+                TotalCompra = numeroMacas * precoMaisDeUmaDuzia;
+                document.write("Total da compra: R$ " + TotalCompra.toFixed(2));
+            }
+        } else {
+            document.write("Número inválido");
+        }
+
+    </script>
+</body>
+</html>
