@@ -1,4 +1,4 @@
-## Lógica de Programação
+## Lógica de Programação 🧠👨🏾‍💻
 Lista de exercícios com o intuito de desenvolver os conceitos de lógica de programação.
 
 ### Linguagem utilizada
